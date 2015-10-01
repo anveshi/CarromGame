@@ -1,0 +1,10 @@
+int dx[]={-1,1,1,-1};
+int dy[]={-1,-1,1,1};
+float ball_rad = 0.2f;
+float box_len = 5.0f;
+float tri_x = 0.0f;
+float tri_y = 0.0f;
+float theta = 0.0f;
+float hole_rad = ball_rad*1.3f*(box_len)/5.0;
+float innerradius,outerradius;
+float bar_length=0.0;
